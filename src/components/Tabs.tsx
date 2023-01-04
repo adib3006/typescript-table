@@ -56,7 +56,7 @@ const PersonTabs = () => {
     const { colorMode, toggleColorMode } = useColorMode();
 
     return (
-        <div>
+        <Box>
             <Heading
                 mt={5}
                 bgGradient='linear(to-r, #9233ab, #24E0DA)'
@@ -87,7 +87,7 @@ const PersonTabs = () => {
                     </TabPanels>
                 </Tabs>
             </Box>
-        </div>
+        </Box>
     );
 }
 
